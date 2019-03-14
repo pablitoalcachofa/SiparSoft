@@ -17,6 +17,11 @@ public class Bodega {
     // private date fecha_nacimiento;
     private int edad;
     
+    public Bodega(String ident,String nom, int ed){
+        this.identificacion=ident;
+        this.nombre=nom;
+        this.edad=ed;
+    }
  public void gestionar_productos(){
  
  }

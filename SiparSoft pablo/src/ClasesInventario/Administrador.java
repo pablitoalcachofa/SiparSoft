@@ -9,21 +9,30 @@ package ClasesInventario;
  *
  * @author MIGUEL
  */
-public class Empleado {
+public class Administrador {
+    
     private String identificacion;
     private String nombre;
     //private date fecha_nacimiento;
     private int edad;
-    private String cargo;
-    private String tipo_empleado;
 
-public void crear_empleado(){
+    public Administrador(String ident,String nom, int ed){
+        this.identificacion=ident;
+        this.nombre=nom;
+        this.edad=ed;
+    }
+    
+public void administrar_sistema(){
+
+}
+public void gestionar_empleados(){
     
 }
-public void actualizar_empleado(){
+public void generar_reportes(){
     
 }
-public boolean activar_empleado(){
-    return true;
+public void gestionar_pedidos(){
+    
 }
+
 }

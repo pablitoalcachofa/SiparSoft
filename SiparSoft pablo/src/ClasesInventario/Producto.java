@@ -11,10 +11,14 @@ package ClasesInventario;
  */
 public class Producto {
  private String codigo;
- private String nombre_productor;
+ private String nombre_producto;
  private String tipo_producto;
  
- 
+ public Producto(String cod,String nomP, String tipoP){
+        this.codigo=cod;
+        this.nombre_producto=nomP;
+        this.tipo_producto=tipoP;
+    }
  public void crear_producto(){
      
  }

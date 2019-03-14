@@ -15,6 +15,12 @@ public class Proveedor {
     private String tipo_proveedor;
     private double valor_compras;
     
+    public Proveedor(int nit,String nom, String tipoPR,double valorC){
+        this.nit=nit;
+        this.nombre=nom;
+        this.tipo_proveedor=tipoPR;
+        this.valor_compras=valorC;
+    }
 public void crear_proveedor(){
     
 }
